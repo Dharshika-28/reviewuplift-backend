@@ -1,4 +1,4 @@
-package com.feedback.reviewuplit.controller;
+package com.feedback.reviewuplift.controller;
 
 import java.util.Map;
 
@@ -15,7 +15,7 @@ import com.feedback.reviewuplift.dto.RegisterRequest;
 import com.feedback.reviewuplift.entity.UserEntity;
 import com.feedback.reviewuplift.service.UserService;
 
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("api/auth")
 public class AuthController {

@@ -3,12 +3,14 @@ package com.feedback.reviewuplift.service;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.feedback.reviewuplift.dto.LoginRequest;
 import com.feedback.reviewuplift.dto.RegisterRequest;
 import com.feedback.reviewuplift.entity.UserEntity;
-import com.feedback.reviewuplit.repository.UserRepository;
+import com.feedback.reviewuplift.repository.UserRepository;
 
+@Service
 public class UserService {
 
 	@Autowired
